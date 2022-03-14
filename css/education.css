@@ -1,0 +1,13 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'KoHo', sans-serif;
+    text-transform: uppercase;
+    background-color: #FA1759;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}

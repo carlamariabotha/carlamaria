@@ -1,0 +1,48 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0px 0px;
+}
+
+header {
+    font-family: 'KoHo', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #FA1759;
+    color: white;
+    padding: 10px;
+}
+
+.navigation {
+    font-family: 'Nunito', sans-serif;
+    list-style: none;   
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.navigation a {
+    color: #faabaf;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #ebebeb;
+    text-decoration: underline;
+}
+
+.profile-picture {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border: #f5f5f5;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
