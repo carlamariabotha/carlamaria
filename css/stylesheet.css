@@ -11,6 +11,17 @@ header {
     background-color: #FA1759;
     color: white;
     padding: 10px;
+    /* This is my favourite property - god help me not overuse it*/
+
+    background: linear-gradient(90deg, pink, red, orange);
+    
+    
+    /* I wanted to add position because then the nav bar will stay on top
+    but pp goes underneath nav bar because of position tage.
+    it also flips out the width of my div...
+    position: fixed;
+    width: 100vw;
+    */
 }
 
 .navigation {
@@ -28,6 +39,12 @@ header {
 .navigation a:hover {
     color: #ebebeb;
     text-decoration: underline;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .profile-picture {
